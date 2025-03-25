@@ -8,6 +8,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * Main method to accept user input and run the CPU Scheduler.
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Process> fcfsProcesses = new ArrayList<>();
